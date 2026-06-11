@@ -14,7 +14,7 @@ public class Filme : Midia
 
     public override void ExibirDetalhes()
     {
-        Console.WriteLine($"🎬 Filme: {Titulo}");
+        Console.WriteLine($"   Filme: {Titulo}");
         Console.WriteLine($"   Diretor: {Diretor} | Classificação: {Classificacao}");
         Console.WriteLine($"   Gênero: {Genero} | Duração: {DuracaoEmMinutos} min");
     }
